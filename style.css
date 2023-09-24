@@ -1,0 +1,94 @@
+/* CSS corrigido */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.attribution img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;       
+    margin-top: 15px;
+}
+
+.container {
+    background: white;
+    width: 230px;
+    height: 380px;
+    border-radius: 15px;
+}
+
+.attribution h2 {
+    margin-top: 15px;
+    color: hsl(218, 44%, 22%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.attribution p {
+    margin-top: 15px;
+    color: hsl(220, 15%, 55%);
+    font-family: 'Outfit', sans-serif;
+}
+
+@media (max-width: 375px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: hsl(212, 45%, 89%);
+    }
+    
+    .attribution { 
+        font-size: 11px; 
+        text-align: center; 
+    }
+    
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+    
+    .attribution img {
+        width: 200px;
+        height: 200px;
+        border-radius: 8px;       
+        margin-top: 15px;
+    }
+    
+    .container {
+        background: white;
+        width: 230px;
+        height: 380px;
+        border-radius: 15px;
+    }
+    
+    .attribution h2 {
+        margin-top: 15px;
+        color: hsl(218, 44%, 22%);
+        font-family: 'Outfit', sans-serif;
+    }
+    
+    .attribution p {
+        margin-top: 15px;
+        color: hsl(220, 15%, 55%);
+        font-family: 'Outfit', sans-serif;
+    }
+  }
